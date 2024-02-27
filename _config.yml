@@ -24,30 +24,30 @@ author:
   avatar           : "profile.png"
   name             : "Zeren Cui (崔泽仁)"
   pronouns         : # example: "she/her"  
-  bio              : "Short biography for the left-hand sidebar"
-  location         : "Earth"
-  employer         : "Red Brick University"
-  uri              : # URL
-  email            : "none@example.org" 
+  bio              : "Junior undergraduate at <a href='https://en.wikipedia.org/wiki/University_of_Science_and_Technology_of_China'> University of Science and Technology of China</a>, graduating in 2025. <br><br>Now focused on system security and binary attacks, with an emphasis on kernel security. <br><br><b>I am actively seeking internships. I'm ready to chat. Please contact me.</b><br><br><b>Last updated:</b>&nbsp; <span id='currentDate'><script>document.write(new Date().getFullYear()+'/'+(new Date().getMonth()+1)+'/'+new Date().getDate());</script></span>"
+  location         : "China"
+  employer         : 
+  uri              : "https://eastxuelian.nebuu.la/"
+  email            : "zrcui2002@outlook.com" 
 
   # Academic websites
   arxiv            : # URL - Update with the correct link to your profile
-  googlescholar    : "https://scholar.google.com/citations?user=PS_CX0AAAAAJ"
+  googlescholar    : 
   impactstory      : # URL
-  orcid            : "http://orcid.org/yourorcidurl"
-  pubmed           : "https://www.ncbi.nlm.nih.gov/pubmed/?term=john+snow"
+  orcid            : 
+  pubmed           : 
   researchgate     : # URL
 
   # Repositories and software development
   bitbucket        : # Username - Update with your username on the site
   codepen          : # Username
   dribbble         : # Username
-  github           : "academicpages"
+  github           : "AvavaAYA"
   kaggle           : # Username  
   stackoverflow    : # User number or user number and name (i.e., use "1" or "1/jeff-atwood")    
 
   # Social media
-  bluesky          : "bsky.app" # Replace this with you Bluesky username
+  bluesky          :  # Replace this with you Bluesky username
   facebook         : # Username
   flickr           : # Username
   foursquare       : # Username
@@ -62,9 +62,10 @@ author:
   pinterest        : # Username
   soundcloud       : # Username
   steam            : # Username
-  telegram         : # URL
+  telegram         : "telegram.jpg"
+  wechat           : "wechat.jpg"
   tumblr           : # Username
-  twitter          : "UniofOxford"  # Replace this with your X / Twitter handle
+  twitter          :   # Replace this with your X / Twitter handle
   vine             : # Username
   weibo            : # Username
   wikipedia        : # Username
