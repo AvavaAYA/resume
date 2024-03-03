@@ -3,13 +3,13 @@
 # This config file is meant for settings that affect your entire site, values
 # which you are expected to set up once and rarely need to edit after that.
 # For technical reasons, this file is *NOT* reloaded automatically when you use
-# `jekyll serve -l -H localhost`. If you change this file, please restart the 
+# `jekyll serve -l -H localhost`. If you change this file, please restart the
 # server process.
 
 # Basic Site Settings
 locale: en-US
 title: Zeren Cui (崔泽仁)
-title_separator: '-'
+title_separator: "-"
 name: &name Zeren Cui (崔泽仁)
 description: &description personal description
 url: https://resume.zerencui.com # the base hostname & protocol for your site e.g. "https://mmistakes.github.io"
@@ -20,10 +20,10 @@ repository: AvavaAYA/resume
 #               Additional customization can be done by editing /_includes/author-profile.html
 author:
   # Biographic information
-  avatar: profile.png
+  avatar: profile.jpeg
   name: Zeren Cui (崔泽仁)
-  pronouns: # example: "she/her"  
-  bio: Junior undergraduate at <a href='https://en.wikipedia.org/wiki/University_of_Science_and_Technology_of_China'> University of Science and Technology of China</a>, graduating in 2025. <br><br>Now focused on system security and binary attacks, with an emphasis on kernel security. <br><br><b>I am actively seeking internships. I'm ready to chat. Please contact me.</b><br><br><b>Last updated:</b>&nbsp; <span id='currentDate'><script>document.write(new Date().getFullYear()+'/'+(new Date().getMonth()+1)+'/'+new Date().getDate());</script></span>
+  pronouns: # example: "she/her"
+  bio: Junior at the <a href='https://en.wikipedia.org/wiki/University_of_Science_and_Technology_of_China'> University of Science and Technology of China</a>, set to graduate in 2025. Specializing in system security and binary exploits, particularly kernel security. <br><b>Currently on the lookout for internship opportunities. Let's connect!<br><br>Last updated:</b>&nbsp; <span id='currentDate'><script>document.write(new Date().getFullYear()+'/'+(new Date().getMonth()+1)+'/'+new Date().getDate());</script></span>
   location: China
   employer:
   uri: https://eastxuelian.nebuu.la/
@@ -40,8 +40,8 @@ author:
   codepen: # Username
   dribbble: # Username
   github: AvavaAYA
-  kaggle: # Username  
-  stackoverflow: # User number or user number and name (i.e., use "1" or "1/jeff-atwood")    
+  kaggle: # Username
+  stackoverflow: # User number or user number and name (i.e., use "1" or "1/jeff-atwood")
   # Social media
   bluesky: # Replace this with you Bluesky username
   facebook: # Username
@@ -140,8 +140,8 @@ include:
   - _pages
   - files
 exclude:
-  - '*.sublime-project'
-  - '*.sublime-workspace'
+  - "*.sublime-project"
+  - "*.sublime-workspace"
   - .asset-cache
   - .bundle
   - .jekyll-assets-cache
@@ -262,7 +262,7 @@ sass:
 permalink: /:categories/:title/
 # paginate: 5 # amount of posts to show
 # paginate_path: /page:num/
-timezone: America/Los_Angeles # http://en.wikipedia.org/wiki/List_of_tz_database_time_zones
+timezone: Asia/Shanghai # http://en.wikipedia.org/wiki/List_of_tz_database_time_zones
 # Plugins
 plugins:
   - jekyll-paginate

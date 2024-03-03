@@ -7,44 +7,118 @@ redirect_from:
   - /about.html
 ---
 
-# About Me<a name="About Me"></a>
+# About Me<a name="about"></a>
 
-I am a junior undergraduate at the [University of Science and Technology of China](https://en.wikipedia.org/wiki/University_of_Science_and_Technology_of_China), set to graduate in 2025. My current focus is on system security and binary attacks, with an emphasis on kernel security. I have previously been committed to studying for and actively participating in various CTF competitions. <b>If you are interested in my work or have any academic offers, please feel free to contact me. <br>I am currently pursuing opportunities for internships.</b>
+I'm currently a junior at the [University of Science and Technology of China](https://en.wikipedia.org/wiki/University_of_Science_and_Technology_of_China), with my graduation slated for 2025. My academic and research interests lie primarily in system security and binary exploitation, particularly in the realm of kernel security. My journey in cybersecurity has been marked by a strong commitment to learning and competing in various Capture The Flag (CTF) competitions. Currently, I am the captain of the CTF team [Nebula (top 15 in China out of 17824 teams)](https://adworld.xctf.org.cn/teams/details?team_id=177501708).
 
-# A data-driven personal website
+**If my work sparks your interest or you have any job opportunities, please don't hesitate to reach out to me.** _I am actively seeking internship opportunities at this time._
 
-Like many other Jekyll-based GitHub Pages templates, academicpages makes you separate the website's content from its form. The content & metadata of your website are in structured markdown files, while various other files constitute the theme, specifying how to transform that content & metadata into HTML pages. You keep these various markdown (.md), YAML (.yml), HTML, and CSS files in a public GitHub repository. Each time you commit and push an update to the repository, the [GitHub pages](https://pages.github.com/) service creates static HTML pages based on these files, which are hosted on GitHub's servers free of charge.
+---
 
-Many of the features of dynamic content management systems (like Wordpress) can be achieved in this fashion, using a fraction of the computational resources and with far less vulnerability to hacking and DDoSing. You can also modify the theme to your heart's content without touching the content of your site. If you get to a point where you've broken something in Jekyll/HTML/CSS beyond repair, your markdown files describing your talks, publications, etc. are safe. You can rollback the changes or even delete the repository and start over -- just be sure to save the markdown files! Finally, you can also write scripts that process the structured data on the site, such as [this one](https://github.com/academicpages/academicpages.github.io/blob/master/talkmap.ipynb) that analyzes metadata in pages about talks to display [a map of every location you've given a talk](https://academicpages.github.io/talkmap.html).
+# Education<a name="education"></a>
 
-# Getting started
+<style>
+  body {
+    font-family: 'Arial', sans-serif;
+    color: #333;
+    line-height: 1.6;
+  }
+  .cv-section {
+    margin-bottom: 15px;
+    padding-left: 20px; /* Add padding to align with bullet */
+  }
+  .cv-date {
+    font-weight: bold;
+    margin-bottom: 5px;
+    position: relative;
+  }
+  .cv-date:before {
+    content: "• ";
+    position: absolute;
+    left: -20px; /* Adjust left position to align bullet */
+    color: #000;
+    font-weight: bold;
+  }
+  .cv-title {
+    font-size: 1.1em;
+    margin-bottom: 5px;
+  }
+  .cv-institution {
+        font-size: 1.1em;
+    margin-bottom: 5px;
+  }
+  .cv-supervisor {
+        font-size: 1.1em;
+        margin-bottom: 5px;
+  }
+</style>
+<style>
+  body {
+    font-family: 'Arial', sans-serif;
+    color: #333;
+    line-height: 1.6;
+  }
+  .publication-entry {
+    margin-bottom: 10px;
+  }
+  .publication-bullet {
+    color: #FF5733; /* Adjust the color to match the emoji */
+    font-size: 24px; /* Adjust size as needed */
+  }
+  .publication-title {
+    color: #0000EE; /* Standard link color */
+    text-decoration: none; /* No underline */
+    font-weight: bold;
+  }
+  .authors {
+    font-weight: bold;
+  }
+  .publication-year {
+    font-style: italic;
+  }
+ul {
+  list-style-position: outside;
+  padding-left: 19px
+}
+</style>
 
-1. Register a GitHub account if you don't have one and confirm your e-mail (required!)
-1. Fork [this repository](https://github.com/academicpages/academicpages.github.io) by clicking the "fork" button in the top right.
-1. Go to the repository's settings (rightmost item in the tabs that start with "Code", should be below "Unwatch"). Rename the repository "[your GitHub username].github.io", which will also be your website's URL.
-1. Set site-wide configuration and create content & metadata (see below -- also see [this set of diffs](http://archive.is/3TPas) showing what files were changed to set up [an example site](https://getorg-testacct.github.io) for a user with the username "getorg-testacct")
-1. Upload any files (like PDFs, .zip files, etc.) to the files/ directory. They will appear at https://[your GitHub username].github.io/files/example.pdf.
-1. Check status by going to the repository settings, in the "GitHub pages" section
+<div class="cv-section">
+  <div class="cv-date">2021/09 - 2025/06</div>
+  <div class="cv-title">Bachelor of Cybersecurity</div>
+  <div class="cv-institution">University of Science and Technology of China</div>
+  <div class="cv-supervisor">Supervisor: <a href="http://staff.ustc.edu.cn/~ynh/" target="_blank">Prof. Nenghai Yu</a></div>
+</div>
 
-## Site-wide configuration
+---
 
-The main configuration file for the site is in the base directory in [\_config.yml](https://github.com/academicpages/academicpages.github.io/blob/master/_config.yml), which defines the content in the sidebars and other site-wide features. You will need to replace the default variables with ones about yourself and your site's github repository. The configuration file for the top menu is in [\_data/navigation.yml](https://github.com/academicpages/academicpages.github.io/blob/master/_data/navigation.yml). For example, if you don't have a portfolio or blog posts, you can remove those items from that navigation.yml file to remove them from the header.
+# Selected Awards<a name="selected-awards"></a>
 
-## Create content & metadata
+🥈 Second Prize in the 6th National "Qiang Wang Cup" Cybersecurity Challenge Final, 2022.
 
-For site content, there is one markdown file for each type of content, which are stored in directories like \_publications, \_talks, \_posts, \_teaching, or \_pages. For example, each talk is a markdown file in the [\_talks directory](https://github.com/academicpages/academicpages.github.io/tree/master/_talks). At the top of each markdown file is structured data in YAML about the talk, which the theme will parse to do lots of cool stuff. The same structured data about a talk is used to generate the list of talks on the [Talks page](https://academicpages.github.io/talks), each [individual page](https://academicpages.github.io/talks/2012-03-01-talk-1) for specific talks, the talks section for the [CV page](https://academicpages.github.io/cv), and the [map of places you've given a talk](https://academicpages.github.io/talkmap.html) (if you run this [python file](https://github.com/academicpages/academicpages.github.io/blob/master/talkmap.py) or [Jupyter notebook](https://github.com/academicpages/academicpages.github.io/blob/master/talkmap.ipynb), which creates the HTML for the map based on the contents of the \_talks directory).
+🥇 1st place in the 4th "Great Wall Cup" Cybersecurity Triathlon Preliminary Round and 🥈 6th in the Final Round, 2023.
 
-**Markdown generator**
+🥉 3st place in XCTF's international CTF competition TPCTF, 2023.
 
-I have also created [a set of Jupyter notebooks](https://github.com/academicpages/academicpages.github.io/tree/master/markdown_generator) that converts a CSV containing structured data about talks or presentations into individual markdown files that will be properly formatted for the academicpages template. The sample CSVs in that directory are the ones I used to create my own personal website at stuartgeiger.com. My usual workflow is that I keep a spreadsheet of my publications and talks, then run the code in these notebooks to generate the markdown files, then commit and push them to the GitHub repository.
+🥈 8th place in the 3rd National "Wang Ding Cup" Cybersecurity Challenge Semi-finals and 0.17% (25th out of 14724) in "Wang Ding Cup", 2022~2023.
 
-## How to edit your site's GitHub repository
+🥇 First prize of the 17th National College Student Information Security Contest, East-Northeastern Region and 🥈 second prize in the Final Round, 2023.
 
-Many people use a git client to create files on their local computer and then push them to GitHub's servers. If you are not familiar with git, you can directly edit these configuration and markdown files directly in the github.com interface. Navigate to a file (like [this one](https://github.com/academicpages/academicpages.github.io/blob/master/_talks/2012-03-01-talk-1.md) and click the pencil icon in the top right of the content preview (to the right of the "Raw | Blame | History" buttons). You can delete a file by clicking the trashcan icon to the right of the pencil icon. You can also create new files or upload files by navigating to a directory and clicking the "Create new file" or "Upload files" buttons.
+🏆 5th place in Tencent's international CTF competition TCTF/0CTF - RisingStar CTF, 2022.
 
-Example: editing a markdown file for a talk
-![Editing a markdown file for a talk](/images/editing-talk.png)
+---
 
-## For more info
+# Teaching<a name="teaching"></a>
 
-More info about configuring academicpages can be found in [the guide](https://academicpages.github.io/markdown/). The [guides for the Minimal Mistakes theme](https://mmistakes.github.io/minimal-mistakes/docs/configuration/) (which this theme was forked from) might also be helpful.
+- Teaching Assistant for Prof. [Wenliang Du](https://web.ecs.syr.edu/~wedu/)'s SEED Lectures, Summer 2023.
+
+- Captain of the CTF team [NEBULA](https://ctftime.org/team/168863), leading our team to achieve a national annual ranking of 12th and placing us in the top 0.33% worldwide on CTFtime, Summer 2023 ~ Summer 2024.
+
+- Teaching Assistant for Design and Practice of Information Security I, Spring 2022, Spring 2023, Spring 2024, USTC.
+
+- Teaching Assistant for Design and Practice of Information Security II, Spring 2022, Spring 2023, Spring 2024, USTC.
+
+- Mentor for the CTF team NEBULA, 2022, 2023, 2024.
+
+---
+
+<a href="https://clustrmaps.com/site/1bypg"  title="Visit tracker"><img src="//www.clustrmaps.com/map_v2.png?d=07yS0zm69SeQOjQTTYTXWbqImaDV-dusS_JXNifZLmI&cl=ffffff" /></a>

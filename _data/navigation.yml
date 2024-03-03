@@ -1,22 +1,16 @@
 # main links links
 main:
-  - title: "Publications"
-    url: /publications/
+  - title: "About Me"
+    url: /#about
 
-  - title: "Talks"
-    url: /talks/    
+  - title: "Education"
+    url: /#education
+
+  - title: "Selected Awards"
+    url: /#selected-awards
 
   - title: "Teaching"
-    url: /teaching/    
-    
-  - title: "Portfolio"
-    url: /portfolio/
-        
+    url: /#teaching
+
   - title: "Blog Posts"
-    url: /year-archive/
-    
-  - title: "CV"
-    url: /cv/
-    
-  - title: "Guide"
-    url: /markdown/
+    url: https://eastxuelian.nebuu.la
