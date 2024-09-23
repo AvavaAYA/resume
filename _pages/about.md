@@ -9,9 +9,11 @@ redirect_from:
 
 # About Me<a name="about"></a>
 
-I'm currently a junior at the [University of Science and Technology of China](https://en.wikipedia.org/wiki/University_of_Science_and_Technology_of_China), with my graduation slated for 2025. My academic and research interests lie primarily in system security and binary exploitation, particularly in the realm of kernel security. My journey in cybersecurity has been marked by a strong commitment to learning and competing in various Capture The Flag (CTF) competitions. Currently, I am the captain of the CTF team [Nebula (top 15 in China out of 17824 teams)](https://adworld.xctf.org.cn/teams/details?team_id=177501708).
+I am currently a junior at the [University of Science and Technology of China](https://en.wikipedia.org/wiki/University_of_Science_and_Technology_of_China), expecting to graduate in 2025. My academic and research interests are primarily in system security and binary exploitation, with a particular focus on kernel security. My journey in cybersecurity has been marked by a strong commitment to learning and competing in various Capture The Flag (CTF) competitions. Currently, I am the captain of the CTF team [Nebula, which ranks in the top 15 out of 17,824 teams](https://adworld.xctf.org.cn/teams/details?team_id=177501708) in China.
 
-**If my work sparks your interest or you have any job opportunities, please don't hesitate to reach out to me.** _I am actively seeking internship opportunities at this time._
+**If my work interests you or if you have any job opportunities, please feel free to reach out. I am actively seeking internship opportunities at this time.**
+
+*Let me know if you’d like any further adjustments or additions!*
 
 ---
 
@@ -51,6 +53,12 @@ I'm currently a junior at the [University of Science and Technology of China](ht
         font-size: 1.1em;
         margin-bottom: 5px;
   }
+  .cv-note {
+        font-size: 1em;
+        margin-top: 10px;
+        font-style: italic;
+        color: #666;
+  }
 </style>
 <style>
   body {
@@ -83,15 +91,24 @@ ul {
 </style>
 
 <div class="cv-section">
-  <div class="cv-date">2021/09 - 2025/06</div>
+  <div class="cv-date">2020/09 - 2025/06</div>
   <div class="cv-title">Bachelor of Cybersecurity</div>
   <div class="cv-institution">University of Science and Technology of China</div>
-  <div class="cv-supervisor">Supervisor: <a href="http://staff.ustc.edu.cn/~ynh/" target="_blank">Prof. Nenghai Yu</a></div>
+  <div class="cv-supervisor">
+    Supervisor: <a href="http://staff.ustc.edu.cn/~ynh/" target="_blank">Prof. Nenghai Yu</a>
+  </div>
+  <div class="cv-note">
+    <em>Note:</em> The five-year duration of my undergraduate program is due to my transfer from the School of Chemistry to the School of Cyberspace Security. Additionally, participation in the "Strengthening Foundation Program" (Qiang Ji Plan) adjusted my academic schedule.
+  </div>
 </div>
 
 ---
 
 # Selected Awards<a name="selected-awards"></a>
+
+🥇 First prize in the 17th National College Student Information Security Contest, East-Northeastern Region, 2024.
+
+🏆 Among top ten teams in the 8th XCTF final, 2024.
 
 🥈 Second Prize in the 6th National "Qiang Wang Cup" Cybersecurity Challenge Final, 2022.
 
@@ -101,13 +118,15 @@ ul {
 
 🥈 8th place in the 3rd National "Wang Ding Cup" Cybersecurity Challenge Semi-finals and 0.17% (25th out of 14724) in "Wang Ding Cup", 2022~2023.
 
-🥇 First prize of the 17th National College Student Information Security Contest, East-Northeastern Region and 🥈 second prize in the Final Round, 2023.
+🥇 First prize of the 16th National College Student Information Security Contest, East-Northeastern Region and 🥈 second prize in the Final Round, 2023.
 
 🏆 5th place in Tencent's international CTF competition TCTF/0CTF - RisingStar CTF, 2022.
 
 ---
 
-# Teaching<a name="teaching"></a>
+# Teaching and Internship<a name="teaching"></a>
+
+- Huawei Internship, as the main contributor, I completed the security evaluation and hardening of jemalloc, and then set up and adapted the syzkaller kernel testing platform, winning the intern scholarship, Summer 2024.
 
 - Teaching Assistant for Prof. [Wenliang Du](https://web.ecs.syr.edu/~wedu/)'s SEED Lectures, Summer 2023.
 
